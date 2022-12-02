@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+        <h1>welcome</h1>
+        <hr>
+        <h2>complete the form</h2>
+        
+        <form action="do.php">
+            <label for="first_name">Enter first name</label>
+            <input type="text" id="first_name" 
+            name="first_name" placeholder="Abebe">    
+            <br><br>
+            <label for="last_name">Enter last name</label> 
+            <input type="text" id="last_name" 
+            name="last_name" placeholder="Bekele"   >
+            <br><br>
+            
+           <label for="email">Enter email</label>
+                 <input type="email" id="email" name="email"
+                 placeholder="example@gmail.com">
+                 <br><br>
+                 <label for="title">Your sex:-</label>
+                 <label for="Meal">Meal</label>
+                 <input type="radio" value="Meal" id="Meal" name="chris">
+                 <label for="Femeal">Femeal</label>
+                 <input type="radio"
+                 value="Femeal"id="Femeal" name="chris">
+                 <br><br>
+                 <label for="payment_mathod">payment method:
+                 </label>
+                 <select>
+                     <option value="visa">Visa</option>
+                     <option value="Mastercard">Mastercard
+                     </option>
+                     <option value="check">Check</option>
+                     <option value="giftcard">Gift card
+                     </option>
+                 </select>
+                 <br><br>
+                 <label for="birthday">Set your birthday
+                 </label>
+                 <input type="date" id="bithday" 
+                 name="birthday" value="2000-01-01">
+                 <br><br>
+                 <label for="quantity">Quantity</label>
+                 <input type="number" id="quantity"
+                 name="quantity" min="0" max="99" value="1">
+                 <br><br>
+                 <label type="phone_number">Phone number:
+                 </label>
+                 <input type="tel" id="phone_number"           
+                 name="phone_number" 
+                 placeholder="XXXXXXXXXX" >
+                 <br><br>
+                 <label for="pass">Password</label>
+                 <input type="password" id="pass" 
+                 name="pass" maxlength="12" minlength="4"
+                 placeholder="0000">
+                 <br>
+                 minimum 4 characters
+                  <br> 
+                 maximum 12 characters
+                 <br><br><br>
+                 
+              <input type="reset">
+              <br><br>
+             <input type="submit" name="chris">
+            </form> 
+            <br><br>
+            <hr>
+            
+          
+    </body>
+</html>                    
